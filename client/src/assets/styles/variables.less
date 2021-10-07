@@ -1,0 +1,145 @@
+// Breakpoints
+@widescreen-md: 1600px;
+@widescreen: 1366px;
+@desktop: 1024px;
+@tablet: 768px;
+@mobile: 480px;
+@mobile-sm: 320px;
+
+
+// colors
+
+@white: #ffffff;
+@gray: #767676;
+@gray1: #d1d1d1;
+@gray2: #edeef0;
+@black: #333333;
+@green: #87d068;
+@red: #e25c3d;
+
+// -------- Colors -----------
+@primary-color: @green;
+@info-color: @primary-color;
+@success-color: @primary-color;
+@processing-color: @blue-6;
+@error-color: @red;
+@highlight-color: @red-5;
+@warning-color: @gold-6;
+@normal-color: #d9d9d9;
+@white: #fff;
+@black: #000;
+
+// Base
+@base-font: "Roboto", "Arial", Helvetica, sans-serif;
+@secondary-font: "Roboto", "Arial", Helvetica, sans-serif;
+
+@height-input: 40px;
+
+// heading
+@heading-font: @base-font;
+@heading-font-weight: 400;
+
+@container-width: 1180px;
+
+@font-size-base: 14px;
+@animation-speed: 0.3s;
+
+// Media queries breakpoints
+// @screen-xs and @screen-xs-min is not used in Grid
+// smallest break point is @screen-md
+@screen-xs: @mobile-sm;
+// 👆 Extra small screen / phone
+
+// 👇 Small screen / tablet
+@screen-sm: @mobile;
+@screen-sm-min: @screen-sm;
+
+// Medium screen / desktop
+@screen-md: @tablet;
+
+// Large screen / wide desktop
+@screen-lg: @desktop;
+
+// Extra large screen / full hd
+@screen-xl: @widescreen;
+
+// Extra extra large screen / large desktop
+@screen-xxl: @widescreen-md;
+
+// Base Scaffolding Variables
+// ---
+
+// Background color for `<body>`
+@body-background: @gray2;
+// Base background color for most components
+@component-background: @white;
+// Popover background color
+@popover-background: @component-background;
+@popover-customize-border-color: @border-color-split;
+@font-family: @base-font;
+
+// https://github.com/ant-design/ant-design/issues/20210
+@border-radius-base: 4px;
+@border-radius-sm: @border-radius-base;
+
+// Menu
+// ---
+@menu-inline-toplevel-item-height: 40px;
+@menu-item-height: 40px;
+@menu-item-group-height: @line-height-base;
+@menu-collapsed-width: 80px;
+@menu-bg: transparent;
+@menu-popup-bg: @component-background;
+@menu-item-color: @gray;
+@menu-inline-submenu-bg: transparent;
+@menu-highlight-color: @primary-color;
+@menu-highlight-danger-color: @error-color;
+@menu-item-active-bg: transparent;
+@menu-item-active-danger-bg: @red-1;
+@menu-item-active-border-width: 3px;
+@menu-item-group-title-color: @text-color-secondary;
+@menu-item-vertical-margin: 0;
+@menu-item-font-size: @font-size-base;
+@menu-item-boundary-margin: 8px;
+@menu-item-padding-horizontal: 20px;
+@menu-item-padding: 0 @menu-item-padding-horizontal;
+@menu-horizontal-line-height: 46px;
+@menu-icon-margin-right: 10px;
+@menu-icon-size: @menu-item-font-size;
+@menu-icon-size-lg: @font-size-lg;
+@menu-item-group-title-font-size: @menu-item-font-size;
+
+
+// Input
+// ---
+@input-height-base: @height-input;
+@input-border-color: @gray;
+@input-hover-border-color: @black;
+@btn-height-sm: 27px;
+
+
+// Buttons
+@btn-primary-color: @white;
+@btn-primary-bg: @primary-color;
+@btn-height-base: @height-input;
+
+// LINK
+@link-color: inherit;   
+@link-hover-color: @primary-color;
+@link-active-color: @primary-color;
+@link-decoration: none;
+@link-hover-decoration: none;
+@link-focus-decoration: none;
+@link-focus-outline: 0;
+
+
+// Layout
+// Layout
+@layout-body-background: transparent;
+@layout-header-background: @white;
+@layout-header-height: inherit;
+@layout-header-padding: 5px 0;
+
+// Select
+// ---
+@select-border-color: @gray;

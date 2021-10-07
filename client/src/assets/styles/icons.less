@@ -1,0 +1,43 @@
+// base font to icons ../icons/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../icons/icomoon.eot?g9dad');
+    src:  url('../icons/icomoon.eot?g9dad#iefix') format('embedded-opentype'),
+        url('../icons/icomoon.ttf?g9dad') format('truetype'),
+        url('../icons/icomoon.woff?g9dad') format('woff'),
+        url('../icons/icomoon.svg?g9dad#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-delete:before {
+    content: "\e902";
+}
+
+.icon-edit:before {
+    content: "\e903";
+}
+
+.icon-heart-empty:before {
+    content: "\e900";
+}
+
+.icon-heart-full:before {
+    content: "\e901";
+}

@@ -1,0 +1,104 @@
+.full-height {
+	height: 100%;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.text-underline {
+	text-decoration: underline;
+}
+
+.ta-c {
+	text-align: center;
+}
+
+.ta-r {
+	text-align: right;
+}
+
+.ta-l {
+	text-align: left;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.semibold {
+	font-weight: 600;
+}
+
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-capitalize {
+	text-transform: capitalize;
+}
+
+.d-inline-block {
+	display: inline-block;
+}
+
+.d-block {
+	display: block;
+}
+
+.d-flex {
+	display: flex;
+	&--wrap {
+		flex-wrap: wrap;
+	}
+	&--column {
+		flex-direction: column;
+	}
+	&--full-width {
+		width: 100%;
+	}
+	&--aligned {
+		&-center {
+			align-items: center;
+		}
+		&-start {
+			align-items: flex-start;
+		}
+		&-end {
+			align-items: flex-end;
+		}
+	}
+	&--centered {
+		justify-content: center;
+		&-vertically {
+			align-items: center;
+		}
+		&-horizontally {
+			justify-content: center;
+		}
+		&-started {
+			justify-content: flex-start;
+		}
+		&-ended {
+			align-items: flex-end;
+		}
+	}
+	&--reversed {
+		flex-direction: row-reverse;
+	}
+	&--ended {
+		justify-content: flex-end;
+	}
+	&--space-between {
+		justify-content: space-between;
+	}
+}
+
+.mb-0 {
+	margin-bottom: 0 !important;
+}
+
+.text-danger {
+	color: @red;
+}
